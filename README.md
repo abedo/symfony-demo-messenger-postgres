@@ -1,6 +1,10 @@
 # symfony-demo-messenger-postgres
 Symfony demo application with messenger and postgres db
 
+```bash
+symfony serve --port=9074
+```
+
 Create new message by command:
 
 ```bash
