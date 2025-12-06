@@ -1,0 +1,4 @@
+GET http://localhost:9074/pl/sms/notification
+Accept: application/json
+
+###
