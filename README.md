@@ -12,3 +12,7 @@ or url:
 ```bash
 /{_locale}/sms/notification
 ```
+
+By sending message as HTTP request, "Messages" section in enabled in profiler
+
+![Uploading image.png…]()
