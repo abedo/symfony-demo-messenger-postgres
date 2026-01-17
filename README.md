@@ -28,3 +28,8 @@ By sending message as HTTP request, "Messages" section in enabled in profiler
 
 <img width="1220" height="768" alt="Zrzut ekranu z 2025-12-06 23-05-59" src="https://github.com/user-attachments/assets/9d19658c-a4bf-4508-8882-bf4b4d9c3978" />
 
+Also possible to send message to execute symfony commands (as schedules):
+
+```php
+$bus->dispatch(new RunExternalCommand('app:send-sms', ['--force' => true]));
+```
