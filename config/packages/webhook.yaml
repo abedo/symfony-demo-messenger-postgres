@@ -1,0 +1,6 @@
+framework:
+  webhook:
+    routing:
+      pleo:
+        service: App\Webhook\PleoRequestParser
+        secret: your_secret_here
