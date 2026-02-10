@@ -15,6 +15,7 @@ use Symfony\Component\Messenger\MessageBusInterface;
 
 #[AsCommand(
     name: 'app:external-command',
+    description: 'Dispatches RunExternalCommand with commandName param',
 )]
 class ExternalCommand extends Command
 {
