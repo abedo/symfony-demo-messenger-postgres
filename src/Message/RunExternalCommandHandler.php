@@ -28,10 +28,11 @@ class RunExternalCommandHandler
         ]);
 
         $output = new BufferedOutput();
-        $application->run($input, $output);
+        $exitCode = $application->run($input, $output);
 
         $this->logger->info('MessageDebug', [
             'commandName' => $message->commandName,
+            'exitCode' => $exitCode,
             'content' => $output->fetch(),
         ]);
     }
