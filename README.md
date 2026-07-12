@@ -33,3 +33,13 @@ Also possible to send message to execute symfony commands (as schedules):
 ```php
 $bus->dispatch(new RunExternalCommand('app:send-sms', ['--force' => true]));
 ```
+Database Configuration
+----------------------
+
+The application can be connected to an external PostgreSQL database, such as one created in [Neon Console](https://console.neon.tech/).
+
+To do this, specify the connection string in your `.env` or `.env.local` file via the `DATABASE_URL` variable:
+
+```env
+DATABASE_URL="postgresql://<user>:<password>@<host>/<database>?sslmode=require&serverVersion=18"
+```
