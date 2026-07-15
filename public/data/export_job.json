@@ -1,0 +1,19 @@
+{
+    "data": {
+        "id": "3032f645-89d3-4ed9-980b-1fc7c8ad0a66",
+        "createdBy": "ac50ae62-976e-42c4-b229-4a03c3576c35",
+        "companyId": "d951f70d-1dfa-47ae-b7ed-2c9eead92b72",
+        "numberOfItems": 2,
+        "status": "pending",
+        "expiresIn": 3600,
+        "createdAt": "2026-02-27T14:10:42Z",
+        "startedAt": null,
+        "lastUpdatedAt": "2026-02-27T14:10:42Z",
+        "completedAt": null,
+        "expiredAt": null,
+        "failureReasonType": null,
+        "failureReason": null,
+        "isInteractive": true,
+        "vendorBasedBookkeeping": false
+    }
+}

@@ -1,0 +1,218 @@
+{
+    "data": [
+        {
+            "companyId": "d951f70d-1dfa-47ae-b7ed-2c9eead92b72",
+            "accountingEntryId": "d9b1b2b5-3ad9-4359-a7ee-fcfa103982ac",
+            "type": "card_purchase",
+            "subType": null,
+            "date": "2026-01-21T09:55:13Z",
+            "amount": {
+                "inSupplierCurrency": {
+                    "currency": "DKK",
+                    "value": 2500
+                },
+                "inWalletCurrency": {
+                    "currency": "DKK",
+                    "value": 2500
+                }
+            },
+            "note": null,
+            "files": [
+                {
+                    "url": "https://pleo-receipts-dev.s3.eu-west-1.amazonaws.com/d951f70d-1dfa-47ae-b7ed-2c9eead92b72/d9b1b2b5-3ad9-4359-a7ee-fcfa103982ac-8efb29e7-d949-40ce-b586-31e95c02cc60.org.pdf?response-content-disposition=attachment&X-Amz-Security-Token=IQoJb3JpZ2luX2VjEHYaCWV1LXdlc3QtMSJHMEUCIHxwmXG0Q3UIkYavJhAnFIEzAneYsQwfthmM6RQr%2BkZxAiEAjQ0iFf1GDMkQb1J%2FEG%2FWezkkYJEi%2B14CDsrlJu02xukq%2FwQIPxAEGgwwMjc0NTk3MjY2NTAiDMJ%2BSK42fuZlIO%2Fo9SrcBIpJ4EFEeLV%2BU18gQ7iOYb1Li3R%2B%2FfQ4D3%2B66kor4LUoPQ%2FxZ7Bkb2bx7eisszCjqYCbQWQ8CwJaNSZPl%2FcjNT4h1RL%2B1UHzdQUMKocwaQ6qGNMaAueDRcrFL9H1%2Ffyodzt07j3VS3b8uNt9jnKW78Wqs4G5GG2vXckQMfTr27AbW9PbDe%2FqA7g%2FgJWir2ZyL6WyO3N4S9YK5y4mImbsFod9F%2FZ%2B%2FwKEwQopu0dGAVrRY25lbyzQ1CsRsXxlNdnqrrX0aCyPNVPBf7XwueAZoLKU76twdMH9xvp3%2BuQ1FJeiIGFho4giLwap1Kwi1VP%2F8waTpRHdIgXeV3VFpRk0%2FXjFq%2B3TZZ1cD5iz1aC0Ih0mFCfbcVotZYOYTqiGlC%2BdUG1xuqC07zwF7oWQjUPmI2WJu56HKay0jTZ1Q9kKX7pnz%2FagD%2B6a2RsA7wYJEMslOcgn3%2FK7hW2W4pjM%2FgEUoP6RJXx4GTCd2p3FzkyffKIH3kmuEZ%2BVfIyNc2o1El5nLjdREObVBiJw3WQO%2FWzVYf8QnGJfAyCk%2B2ycpkNMfkCK%2FlYRLTihL1Xr%2FfJC8qplPTEC1Zt31ORra2hPJLKimG3ZPDX5GjHaKwYW1NiKbl88jLl7oF51f%2B5TClpHjoTOaBYztMCrdjqLk21K6U9wfXq3oo4CI1%2FasAxtButhBTBEng5vesFZXHJCstCaRrIav5n7xbV%2F1VdCM11yx2h1nlAPaspcfhnP2ehRqnvpoAtJlUabxTheMWw%2BZglbQIPFlmD2qYP9hFryzXV%2FnoXuNEhJ784YHpbLp2lo4How%2F8KGzQY6mAFdsEWTg9hsdZ0Woxgbpg0jjG3KnIjrcHdm%2BNOjDEk9pLNkfwSvpzeuTnONHfhNbwRzjvHB8PBOpQMqLcZy0hWP8U92EDKpxLaZjs4XPG65ayyhGxf0QI4yjc%2B0YTlC0tTbbaXiJtrCAl0m8TWNOz%2BNGnGDgC4UxiW7psMjyF%2B3GvTqDAwnzj1L3juwZmacj4Oz2E3iUnWwNw%3D%3D&X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Date=20260227T141422Z&X-Amz-SignedHeaders=host&X-Amz-Credential=ASIAQMZF2FU5G3SPIHOK%2F20260227%2Feu-west-1%2Fs3%2Faws4_request&X-Amz-Expires=86400&X-Amz-Signature=ac7a076fdaecc2da1bc3330730ac67cd6c5146b17fbaa2330fc4cc3f67d5ef87",
+                    "type": "application/pdf",
+                    "size": 53720
+                }
+            ],
+            "supplier": {
+                "code": "4310181",
+                "name": "McDonald's",
+                "categoryCode": "1000",
+                "country": "DK",
+                "account": null,
+                "taxIdentifier": null
+            },
+            "user": {
+                "id": "ac50ae62-976e-42c4-b229-4a03c3576c35",
+                "name": "Marie-Louise Dalsgaard",
+                "code": null
+            },
+            "teamCode": null,
+            "team": null,
+            "accountingEntryLines": [
+                {
+                    "accountingEntryLineId": "d9b1b2b5-3ad9-4359-a7ee-fcfa103982ac",
+                    "lineAmount": {
+                        "inSupplierCurrency": {
+                            "currency": "DKK",
+                            "value": 2500
+                        },
+                        "inWalletCurrency": {
+                            "currency": "DKK",
+                            "value": 2500
+                        }
+                    },
+                    "netAmount": {
+                        "inSupplierCurrency": {
+                            "currency": "DKK",
+                            "value": 2000
+                        },
+                        "inWalletCurrency": {
+                            "currency": "DKK",
+                            "value": 2000
+                        }
+                    },
+                    "account": {
+                        "id": "47d93232-eea0-4293-b704-556f7fa00f6a",
+                        "code": "5800",
+                        "name": "Mad under rejse",
+                        "identifier": null
+                    },
+                    "tax": {
+                        "id": "78d30111-545e-47c4-be2e-5450c262da99",
+                        "code": null,
+                        "type": "inclusive",
+                        "amount": {
+                            "inSupplierCurrency": {
+                                "currency": "DKK",
+                                "value": 500
+                            },
+                            "inWalletCurrency": {
+                                "currency": "DKK",
+                                "value": 500
+                            }
+                        },
+                        "rate": 0.25
+                    },
+                    "tags": []
+                }
+            ],
+            "additionalInformation": {
+                "reconciliationId": "2600005",
+                "reconciledEntries": null,
+                "attendees": [],
+                "invoiceInformation": null
+            },
+            "bookkeeping": null,
+            "vendor": null,
+            "_links": {
+                "web": {
+                    "exportItem": "https://app.staging.pleo.io/export/export-item/d9b1b2b5-3ad9-4359-a7ee-fcfa103982ac"
+                }
+            },
+            "servicePeriod": null
+        },
+        {
+            "companyId": "d951f70d-1dfa-47ae-b7ed-2c9eead92b72",
+            "accountingEntryId": "af74eb66-35f3-441c-a731-8538bc4e76b0",
+            "type": "card_purchase",
+            "subType": null,
+            "date": "2026-01-10T09:55:43Z",
+            "amount": {
+                "inSupplierCurrency": {
+                    "currency": "DKK",
+                    "value": 204640
+                },
+                "inWalletCurrency": {
+                    "currency": "DKK",
+                    "value": 204640
+                }
+            },
+            "note": null,
+            "files": [],
+            "supplier": {
+                "code": "Q6H0W1QGUYNK5ZN",
+                "name": "SLACK T5ZDAPJ9Z",
+                "categoryCode": "1000",
+                "country": "DK",
+                "account": null,
+                "taxIdentifier": null
+            },
+            "user": {
+                "id": "25e903b4-d42f-4e09-aaaf-e28ef5495ed7",
+                "name": "Jacob Andersen",
+                "code": null
+            },
+            "teamCode": null,
+            "team": null,
+            "accountingEntryLines": [
+                {
+                    "accountingEntryLineId": "af74eb66-35f3-441c-a731-8538bc4e76b0",
+                    "lineAmount": {
+                        "inSupplierCurrency": {
+                            "currency": "DKK",
+                            "value": 204640
+                        },
+                        "inWalletCurrency": {
+                            "currency": "DKK",
+                            "value": 204640
+                        }
+                    },
+                    "netAmount": {
+                        "inSupplierCurrency": {
+                            "currency": "DKK",
+                            "value": 163712
+                        },
+                        "inWalletCurrency": {
+                            "currency": "DKK",
+                            "value": 163712
+                        }
+                    },
+                    "account": {
+                        "id": "2b58f4d0-b0be-46b2-b602-4f9a63357776",
+                        "code": "5420",
+                        "name": "Software",
+                        "identifier": null
+                    },
+                    "tax": {
+                        "id": "78d30111-545e-47c4-be2e-5450c262da99",
+                        "code": null,
+                        "type": "inclusive",
+                        "amount": {
+                            "inSupplierCurrency": {
+                                "currency": "DKK",
+                                "value": 40928
+                            },
+                            "inWalletCurrency": {
+                                "currency": "DKK",
+                                "value": 40928
+                            }
+                        },
+                        "rate": 0.25
+                    },
+                    "tags": []
+                }
+            ],
+            "additionalInformation": {
+                "reconciliationId": "2600002",
+                "reconciledEntries": null,
+                "attendees": [],
+                "invoiceInformation": null
+            },
+            "bookkeeping": null,
+            "vendor": null,
+            "_links": {
+                "web": {
+                    "exportItem": "https://app.staging.pleo.io/export/export-item/af74eb66-35f3-441c-a731-8538bc4e76b0"
+                }
+            },
+            "servicePeriod": null
+        }
+    ],
+    "pagination": {
+        "hasPreviousPage": false,
+        "hasNextPage": false,
+        "currentRequestPagination": {
+            "sortingKeys": [],
+            "sortingOrder": [],
+            "parameters": {
+                "job_id": [
+                    "3032f645-89d3-4ed9-980b-1fc7c8ad0a66"
+                ]
+            }
+        },
+        "startCursor": "AAAAAADJUGS6ELUDUN4A=CWUGDYLOWRG7ZIUQYADMMACT4Y",
+        "endCursor": "AAAAAADJUGS6ELUBNUIA=COF5U3B3ARHIHNFZXXTMANYV2A",
+        "total": 2
+    }
+}
