@@ -10,6 +10,7 @@ or with ip 0.0.0.0 in order to expose to applications in docker
 ```bash
 http://host.docker.internal:9074/
 symfony serve --host=0.0.0.0 --port=9074
+php -S 0.0.0.0:9074 index.php
 ```
 
 Create new message by command:
