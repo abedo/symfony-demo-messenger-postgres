@@ -18,9 +18,9 @@ class SmsNotificationHandler
     {
         // ... do some work - like sending an SMS message!
         $this->logger->info('MessageDebug', [
-            'message' => $message,
+            'getContent' => $message->getContent(),
         ]);
 
-        throw new \RuntimeException('test retry');
+//        throw new \RuntimeException('test retry');
     }
 }

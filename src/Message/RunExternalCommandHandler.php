@@ -22,13 +22,23 @@ class RunExternalCommandHandler
     {
         $application = new Application($this->kernel);
         $application->setAutoExit(false);
+        $application->setCatchExceptions(false);
 
         $input = new ArrayInput([
             'command' => $message->commandName,
         ]);
 
         $output = new BufferedOutput();
-        $exitCode = $application->run($input, $output);
+
+        try {
+            $exitCode = $application->run($input, $output);
+        } catch (\Throwable $throwable) {
+            $this->logger->info('MessageDebug', [
+                'commandName' => $message->commandName,
+                'getMessage' => $throwable->getMessage(),
+                'content' => $output->fetch(),
+            ]);
+        }
 
         $this->logger->info('MessageDebug', [
             'commandName' => $message->commandName,
